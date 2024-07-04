@@ -19,8 +19,16 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="flex flex-col place-items-center ">
+    <main className="flex min-h-screen flex-col items-center mt-20">
+      <div>
+        <div>
+          <span>https://x.com/ELDENRING/status/</span>
+          <span className="text-blue-500">1808775732899745981</span>
+        </div>
+
+        <span className="mt-2">copy the id</span>
+      </div>
+      <div className="flex flex-col mt-9 place-items-center ">
         {id ? (
           <>
             <Tweet id={id} />
